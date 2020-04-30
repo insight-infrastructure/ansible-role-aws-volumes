@@ -1,7 +1,7 @@
 jobs:
   test:
     docker:
-      - image: insightinfrastructure/icon-ci:v0.3.0
+      - image: insightinfrastructure/icon-ci:v0.5.0
     steps:
       - checkout
       - run: molecule test

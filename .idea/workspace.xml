@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71958571-e8f0-470f-aefd-6db69950a657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ansible-role-aws-volumes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.yamllint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/defaults/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/molecule/default/Dockerfile.j2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/molecule/default/INSTALL.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/molecule/default/molecule.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/molecule/default/playbook.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/molecule/default/tests/test_default.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vars/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ansible-lint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.pre-commit-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +31,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tasks" />
+      <recent name="$PROJECT_DIR$/defaults" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -51,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588283160434</updated>
-      <workItem from="1588283161795" duration="816000" />
+      <workItem from="1588283161795" duration="1653000" />
     </task>
     <servers />
   </component>
