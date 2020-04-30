@@ -1,48 +1,44 @@
-Role Name
-=========
+ansible-role-aws-volumes
+========================
 
-A brief description of the role goes here.
+This role mounts ephemeral volumes on AWS instances. Takes input of instance type and resolves how many volumes to mount.  
+
+**Note to users:** 
+- This is an early WIP with aspirations to stay current with mapping volumes to available instance types
+- It attempts to solve the problem with having to lookup the ephemeral volume mount locations by simply specifying an instance type 
+- Further work will be done with RAID arrays 
+
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should
-be mentioned here. For instance, if the role uses the EC2 module, it may be a
-good idea to mention in this section that the boto package is required.
+Ansible version >2.6
 
 Role Variables
 --------------
 
-A description of the settable variables for this role should go here, including
-any variables that are in defaults/main.yml, vars/main.yml, and any variables
-that can/should be set via parameters to the role. Any variables that are read
-from other roles and/or the global scope (ie. hostvars, group vars, etc.) should
-be mentioned here as well.
-
-Dependencies
-------------
-
-A list of other roles hosted on Galaxy should go here, plus any details in
-regards to parameters that may need to be set for other roles, or variables that
-are used from other roles.
+```yaml
+instance_type: i3.4xlarge # Maps to offical instance type naming 
+```
 
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables
-passed in as parameters) is always nice for users too:
+```yaml
+---
+- hosts: all
+  roles:
+    - role: ansible-role-aws-volumes
 
-    - hosts: servers
-      roles:
-         - { role: ansible-role-aws-volumes, x: 42 }
-
+  vars:
+    instance_type:
+```
 License
 -------
 
-BSD
+MIT 
 
 Author Information
 ------------------
+Maintained by [insight-infrastructure](https://github.com/insight-infrastructure)
 
-An optional section for the role authors to include contact information, or a
-website (HTML is not allowed).

@@ -1,2 +1,3 @@
 ---
-# vars file for ansible-role-aws-volumes
+
+instance_type: t2.micro

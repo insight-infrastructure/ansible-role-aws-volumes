@@ -3,3 +3,6 @@
   hosts: all
   roles:
     - role: ansible-role-aws-volumes
+
+  vars:
+    instance_type:
